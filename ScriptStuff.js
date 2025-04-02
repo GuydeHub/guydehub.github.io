@@ -7,8 +7,8 @@ function CopyTextToClipboard(text) {
         document.execCommand('copy');
         document.body.removeChild(tempElement);
     } catch {
-        console.log("Failed to copy to clipboard! Retrying..")
-        CopyTextToClipboard(text)
+        document.writeln("Failed to copy to clipboard! Reloading Page....")
+        location.reload()
     }
 }
 function DownloadFile(contents, types) {
