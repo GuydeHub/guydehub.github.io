@@ -29,7 +29,15 @@ button:active {
     border-width: thin;
     height: 250px;
     width: 250px;
-    display: block;
+    margin: auto;
+}
+.scrollableDiv {
+    height: 100%;
+    width: 300px;
+    overflow-y: scroll;
+    background-color: rgb(45, 45, 45);
+    text-align: center;
+    margin: auto;
 }
 body {
     background: radial-gradient(circle at bottom, navy 0, black 100%);
