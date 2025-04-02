@@ -1,0 +1,32 @@
+html {
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+button {
+    border-radius: 12px;
+    background-color: #555555;
+    border-color: red;
+    color: white;
+    font-family: cursive;
+    height: 45px;
+    width: 125px;
+    box-shadow: 0 9px #222222;
+    border: none;
+    font-size: 100%;
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+button:active {
+    box-shadow: 0 6px #222222;
+    transform: translateY(3px);
+    transition-duration: 0.15s;
+}
+.section {
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    height: 250px;
+    width: 250px;
+}
