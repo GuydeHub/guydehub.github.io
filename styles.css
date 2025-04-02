@@ -29,7 +29,6 @@ button:active {
     border-width: thin;
     height: 250px;
     width: 250px;
-    display: inline;
 }
 body {
     background: radial-gradient(circle at bottom, navy 0, black 100%);
