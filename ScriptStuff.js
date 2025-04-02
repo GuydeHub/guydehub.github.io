@@ -1,6 +1,6 @@
-function CopyTextToClipboard(text) {
+asnyc function CopyTextToClipboard(text) {
     try {
-        navigator.clipboard.writeText(text);
+        await navigator.clipboard.writeText(text);
     } catch {
         console.log("Failed to copy to clipboard! Retrying..")
         CopyTextToClipboard(text)
