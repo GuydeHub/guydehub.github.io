@@ -1,6 +1,11 @@
-async function CopyTextToClipboard(text) {
+function CopyTextToClipboard(text) {
     try {
-        await navigator.clipboard.writeText(text);
+        const tempElement = document.createElement('textarea');
+        tempElement.value = text;
+        document.body.appendChild(tempElement);
+        tempElement.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempElement);
     } catch {
         console.log("Failed to copy to clipboard! Retrying..")
         CopyTextToClipboard(text)
