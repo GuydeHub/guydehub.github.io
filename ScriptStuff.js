@@ -1,4 +1,4 @@
-asnyc function CopyTextToClipboard(text) {
+async function CopyTextToClipboard(text) {
     try {
         await navigator.clipboard.writeText(text);
     } catch {
