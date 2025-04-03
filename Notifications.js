@@ -3,6 +3,9 @@ function SendNotif(text) {
   notif.style.height = "225px"
   notif.style.width = "350px"
   notif.style.backgroundColor = "grey"
+  notif.style.top = "50%"
+  notif.style.left = "50%"
+  notif.style.position = "absolute"
   var closeButton = document.createElement("button")
   notif.appendChild(closeButton)
   closeButton.innerHTML = "Close"
