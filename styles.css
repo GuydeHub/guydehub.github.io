@@ -13,6 +13,8 @@ label {
 img {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    height: auto;
 }
 button {
     border-radius: 12px;
