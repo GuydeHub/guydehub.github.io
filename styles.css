@@ -46,7 +46,7 @@ button:active {
     margin: auto;
 }
 .scrollableDiv {
-    height: 95%;
+    height: 80%;
     width: 300px;
     overflow-y: scroll;
     background-color: rgb(45, 45, 45);
