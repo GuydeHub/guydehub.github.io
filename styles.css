@@ -9,8 +9,7 @@ label {
     font-family: cursive;
     text-align: center;
     color: white;
-    background-color: black;
-    overflow-y: hidden;
+    margin: auto;
 }
 button {
     border-radius: 12px;
