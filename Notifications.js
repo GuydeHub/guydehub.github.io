@@ -1,4 +1,8 @@
 function SendNotif(text) {
+  alert(`
+   ${text}
+  `)
+  /*
   var notif = document.createElement("div")
   notif.style.height = "225px"
   notif.style.width = "350px"
@@ -18,5 +22,6 @@ function SendNotif(text) {
   notif.style.textAlign = "center"
   notif.appendChild(label)
   document.body.appendChild(notif)
+  */
 }
 SendNotif("test")
