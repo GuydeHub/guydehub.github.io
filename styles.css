@@ -5,6 +5,13 @@ html {
     background-color: black;
     overflow-y: hidden;
 }
+label {
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    background-color: black;
+    overflow-y: hidden;
+}
 button {
     border-radius: 12px;
     background-color: #555555;
