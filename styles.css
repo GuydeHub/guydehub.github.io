@@ -11,7 +11,9 @@ label {
     color: white;
 }
 img {
-    margin: auto;
+    margin-x: auto;
+    margin-y: auto;
+    position: inherit;
 }
 button {
     border-radius: 12px;
