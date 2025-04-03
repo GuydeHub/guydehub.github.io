@@ -24,4 +24,3 @@ function SendNotif(text) {
   document.body.appendChild(notif)
   */
 }
-SendNotif("test")
