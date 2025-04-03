@@ -11,7 +11,7 @@ function RedirectFile(name) {
 async function AttemptRedirect(url, name) {
     try {
         const result = await fetch(url, {
-            mode: "GET"
+            mode: "no-cors"
         })
         Redirect(url)
     } catch {
