@@ -1,4 +1,4 @@
-return {value = true, reason="Disabled due to an update."}
+return {value = false, reason="None"}
 --[[
 REASONS
 - Disabled due to an update.
