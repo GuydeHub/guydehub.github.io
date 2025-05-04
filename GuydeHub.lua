@@ -7,14 +7,16 @@ if Killswitch.value == true then
 end
 
 local Gui = Library:AddGui({
-	Title = {"GuydeHub", " Version 1"},
+	Title = {"GuydeHub", " Version 2"},
 	ThemeColor = Color3.fromRGB(0, 255, 0),
 	ToggleKey = Enum.KeyCode.G,
 })
 
 local DW = Gui:AddTab("Dandy's World")
+local UTDG = Gui:AddTab("Untitled Drill Game")
 local CONFIG = Gui:AddTab("Config")
 
+local UTDGSCRIPTS = UTDG:AddCategory("Scripts")
 local KEYLESS = DW:AddCategory("Keyless")
 local KEY = DW:AddCategory("Uses Key")
 local SETTINGS = CONFIG:AddCategory("UI Config")
@@ -32,6 +34,10 @@ local Lumin = KEY:AddButton("Lumin Hub", function()
 	loadstring(game:HttpGet("http://lumin-hub.lol/Dandys.lua"))()
 end)
 
+local Farm = UTDGSCRIPTS:AddButton("Farm", function()
+	loadstring(game:HttoGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/untitleddrillgame.lua"))()
+end)
+
 
 local Bind = SETTINGS:AddBind("GUI Toggle", Gui.ToggleKey, function()
 	print("Toggled GUI")
@@ -47,4 +53,4 @@ local Close = SETTINGS:AddButton("Close GUI", function()
     end)
 end)
 
-Library:Notify("Thank you for using GuydeHub V1.", function() end)
+Library:Notify("Thank you for using GuydeHub V2.", function() end)
