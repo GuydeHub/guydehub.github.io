@@ -35,7 +35,7 @@ local Lumin = KEY:AddButton("Lumin Hub", function()
 end)
 
 local Farm = UTDGSCRIPTS:AddButton("Farm", function()
-	loadstring(game:HttoGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/untitleddrillgame.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/untitleddrillgame.lua"))()
 end)
 
 
