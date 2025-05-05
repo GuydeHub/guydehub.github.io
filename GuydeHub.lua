@@ -33,6 +33,10 @@ end)
 local Lumin = KEY:AddButton("Lumin Hub", function()
 	loadstring(game:HttpGet("http://lumin-hub.lol/Dandys.lua"))()
 end)
+local SFB = KEYLESS:AddButton("Smile's Fun Box", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2qG9Sqjq"))()
+end)
+local 
 
 local Farm = UTDGSCRIPTS:AddButton("Farm", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/untitleddrillgame.lua"))()
